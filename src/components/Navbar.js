@@ -5,8 +5,8 @@ class Navbar extends React.Component {
       return(
           <div className="nav">
               <div className="search-container">
-                  <input />
-                  <button id="search-btn">Search</button>
+                  <input placeholder="Search for movies" />
+                  <button id="search-btn"><i class="fas fa-search"></i></button>
               </div>
           </div>
       );

@@ -86,6 +86,7 @@ code {
 #search-btn {
   background: #f2711c;
   height: 43px;
+  width: 43px;
   color: #fff;
   border: none;
   font-size: 15px;
@@ -94,6 +95,7 @@ code {
   position: relative;
   top: -1px;
 }
+
 .main {
   width: 70%;
   margin: 0 auto;
