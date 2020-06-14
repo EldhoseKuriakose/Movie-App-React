@@ -2,6 +2,7 @@ import React from 'react';
 import {data} from '../data';
 import Navbar from './Navbar';
 import MovieCard from './MovieCard';
+import { ADD_MOVIES } from '../actions';
 
 class App extends React.Component {
   componentDidMount() {
@@ -12,10 +13,7 @@ class App extends React.Component {
     });
     //Make API call
     //Dispatch action
-    store.dispatch({
-      type: 'ADD_MOVIES',
-      movies: data
-    });
+    store.dispatch(addMovies(data));
   }
 
   render() {
